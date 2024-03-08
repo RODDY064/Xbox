@@ -33,7 +33,9 @@ export default function Nav() {
         <div className="w-[15rem]  h-10 bg-neutral-100/70 border border-lime-600 rounded-[25px] hidden xl:block">
             <input placeholder="searching..." className="w-[90%] h-full bg-transparent text-black/70  focus:outline-none p-2"/>
         </div>
-        <div>Hello</div>
+        <div>
+          <Image src="/icons/menu.svg" width={20} height={20} alt="menu"/>
+        </div>
       </div>
     </div>
   );
